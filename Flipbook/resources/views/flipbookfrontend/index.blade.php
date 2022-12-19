@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{{url('/bootstrap-5.2.3/css/bootstrap.min.css')}}">
+    <script src="{{url('/bootstrap-5.2.3/js/bootstrap.min.js')}}"></script>
+    <title>Flipbook</title>
 </head>
 <body>
-    
+    <div class="container-md">
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
